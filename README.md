@@ -1,4 +1,4 @@
-# Geak_Head
+# Geek_Head
 For practicing using Laravel
 
 ## Notes :
