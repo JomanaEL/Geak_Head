@@ -1,0 +1,24 @@
+/* ------Main Content-----*/
+
+/* #content {float:left; width:630px; line-height:1.6em;} */
+
+#content #News ul{margin:0; padding:0; list-style:none;}
+#content #News ul li{display:block; width:100%; margin-bottom:30px;}
+#content #News ul li.last{ margin-bottom:0;}
+#content #News ul li article {display: flex;}
+#content #News ul li article figure img{float:left; width:200px; height:125px; margin:0; padding:2px; border:1px solid #9DC02E;}
+#content #News ul li article figure figcaption{display:block; float:right; width:410px; margin-left: 15px;}
+#content #News ul li article figure h2{font-size:25px;}
+
+/* ------Right Column-----*/
+#contentTwo {float:right; width:630px; line-height:1.6em;}
+
+ #right_column{position: fixed; margin-left: 700px; float:right; width:270px;}
+ #right_column h2.title{margin-bottom:15px; padding-bottom:15px; border-bottom:1px solid #9DC02E;}
+
+ #right_column nav{display:block; width:100%;}
+ #right_column nav ul{margin:0; padding:0; list-style:none;}
+ #right_column nav li{margin:0 0 3px 0; padding:0;}
+ #right_column nav li.last{margin-bottom:0;}
+ #right_column nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#9DC02E; background:url("../images/pink_file.jpg") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px solid #3f93d8;}
+ #right_column nav a:hover{color:#9DC02E; background-color:#FFFFFF;}

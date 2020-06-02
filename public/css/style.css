@@ -1,0 +1,136 @@
+                                            /*Generalise*/
+body {
+  background-color: #37465D;
+  font-size: 1em !important;
+  color: #9DC02E !important;
+  font-family: "Roboto";
+  height: 100%;
+}
+#container {
+  display:block; 
+  width:960px; 
+  margin:0 auto;
+}
+                                            /*HEADER*/
+header{
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+  letter-spacing: 5px;
+  padding: 31px 0px 25px;
+}
+                                            /*MAIN*/
+
+#BOX {
+  width:100%;
+  margin: 3em auto 0em auto ;
+  /* border: solid;
+  border-color: chartreuse; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.BOX2{
+  padding:3em 2em 3em;
+  /* position: static; */
+}
+img {
+  /* float: right; */
+  max-width: 90%;
+  height: auto;
+}
+
+.Leftcard{
+  padding: 20px 28px;
+  }
+
+.WelcomeCard p{
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 12px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 20px 20px 0px 20px;
+}
+.WelcomeCard h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+                                          /* BUTTONS */
+a {
+  color: white ;
+}  
+#Button {
+  background-color: #9DC02E; 
+  color: #fff ! important; 
+  /* border-radius: 4px; */
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  padding: 5.5px 21px;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  /* position: static; */
+  margin: 0px 20px 20px 20px;
+  /* bottom:   0;
+  margin: 40px 40px 40px 50px; */
+}                                           
+.WelcomeCard a {
+  background-color: #9DC02E; 
+  color: #fff; 
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 12px 28px;
+  text-decoration: none;
+  display: inline-block;
+  /* position: static; */
+  /* margin: 20px 20px 20px 20px; */
+  bottom:   0;
+  margin: 40px 40px 40px 50px;
+}
+footer p a {
+  color:#9DC02E;
+  text-decoration: none;
+}
+                                          /* BUTTON HOVER */                                      
+.WelcomeCard a:hover {
+  background-color:#fff ; 
+  color: #9DC02E;
+}
+/* #Button a:hover{
+  background-color:#fff !important; 
+  color: #9DC02E !important;
+} */
+li a:hover{
+  color: #37465D !important;
+}
+footer p a:hover {	
+  color: #fff;
+}
+.navbarDropdown a{
+  color: #9DC02E !important;
+}
+
+                                            /* FOOTER */
+footer{
+  /* position:absolute; */
+  /* display: flex; */
+  margin: 3em auto 0em auto ;
+  bottom:0;
+  width:100%;
+  height:60px; 
+  text-align: center;
+}
+footer p {
+  margin: 0em;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 2px;
+}
+                                            /* NAVIGATION BAR */
+nav.navbar{
+  background-color: #9DC02E !important;
+}
+hr{
+  border-top: 1px solid rgb(255, 255, 255);
+}
